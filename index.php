@@ -8,7 +8,7 @@ require('class/Triangle.php');
 $square1 = new Square(10,"carré 1"); // instancie la classe // construit un carré de 10
 $square2 = new Square(24,"carré 2");
 
-$square1->displayPerimeter();
+$square1->displayPerimeter('mm');
 echo '<br>';
 $square2->displayPerimeter();
 echo '<br>';
